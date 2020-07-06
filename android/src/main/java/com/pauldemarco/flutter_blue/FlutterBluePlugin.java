@@ -148,7 +148,7 @@ public class FlutterBluePlugin implements FlutterPlugin, ActivityAware, MethodCa
             final PluginRegistry.Registrar registrar,
             final ActivityPluginBinding activityBinding) {
         synchronized (initializationLock) {
-            Log.i(TAG, "setup");
+            Log.i(TAG, "setup_2");
             this.activity = activity;
             this.application = application;
             channel = new MethodChannel(messenger, NAMESPACE + "/methods");
